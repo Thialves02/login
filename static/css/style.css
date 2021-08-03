@@ -123,6 +123,7 @@ section{
     display:flex;
     justify-content:center;
     align-items:center;
+    border:none;
 }
 #login #google-img{
     margin-right: 11px;
