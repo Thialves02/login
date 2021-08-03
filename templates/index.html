@@ -14,18 +14,27 @@
         </div>
         <div id='login'>
             <h1>Bem vindo de volta</h1>
-            <h2>Façã login na sua conta</h2>
+            <h2>Faça login na sua conta</h2>
             <form>
                 <label>E-mail</label><br>
-                <input type="email" id="email" name="email"><br>
+                <input type="email" id="email" name="email"  placeholder="codelandia@gmail.com"><br>
+                <!-- estilizar place holder -->
                 <label>Senha</label><br>
-                <input type="password">
+                <input type="password" id='password' nome='password'placeholder="*********">
             </form>
+            <div id="lembrar">
+                <input type="checkbox" id='checkbox'><br>
+                <h3>Lembre de mim</h3>
+                <h4>Esqueceu sua senha?</h4>
+            </div>
+            
             <input type='button' value='Entrar' id="bnt-entrar"><br>
-            <input type='button' value='Ou faça login com o Google'id="google">
-            <p>Não tem uma conta? <a>Cadastre-se</a></p>
-        </div>
-        
+            <button id="google">
+                <img src="../static/img/google_home.png" alt="" id="google-img">
+                Ou faça login com o Google
+            </button>
+            <p>Não tem uma conta? <a href="">Cadastre-se</a></p>
+        </div>       
     </section>
 </body>
 </html>

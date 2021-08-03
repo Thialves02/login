@@ -56,12 +56,48 @@ section{
     border-radius: 5px;
     width:350px;
     height:50px;
+    outline: none;
+    padding-left: 10px;
+}
+
+#login #lembrar{
+    display:flex;
+    margin: 26px 0px;
+    align-items: center;
+}
+
+#login #checkbox{
+    border-radius: 50%;
+    vertical-align: middle;
+    width:13px;
+    height:13px;
+    border: 1px solid rgb(129, 128, 128);
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+#login #lembrar h3{
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1A202C;
+    margin-right: 94px;
+    margin-left: 11px;
+}
+
+#login #lembrar h4{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2B6CB0;
 }
 
 #login #bnt-entrar{
     background: #04C35C;
     border-radius: 5px;
-    width:347px;
+    width:357px;
     height:50px;
     border: none;
     color: #fff;
@@ -75,14 +111,21 @@ section{
 
 #login #google{
     font-family: Lato;
-    width:347px;
+    width:357px;
     height:50px;
     background: #1A202C;
     border-radius: 5px; 
     font-size: 16px;
     line-height: 19px;
+    font-weight: bold;
     color: #FFFFFF;
     cursor:pointer;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#login #google-img{
+    margin-right: 11px;
 }
 
 p{
@@ -91,6 +134,12 @@ p{
     font-size: 16px;
     line-height: 19px;
     color: #1A202C;
-    top: 130px;
+    top: 162px;
     text-align:center;
+}
+
+a{
+    cursor: pointer;
+    text-decoration:none;
+    
 }
