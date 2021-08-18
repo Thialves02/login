@@ -3,7 +3,7 @@
 &#xa0;
 </div>
 
-<h1 align="center">A VIAGEM DE CHIHIRO</h1>
+<h1 align="center">LOGIN SCREEN</h1>
 
 <br>
 
@@ -25,11 +25,8 @@ Before open the website , you need install [Git](https://git-scm.com) on your co
 ## :checkered_flag: Starting ##
 
 ```bash
-#Install Pip
-https://pypi.org/project/pip/
-
 #Clone this repository
-$ git clone https://github.com/Thialves02/assistir_codelandia
+$ git clone https://github.com/Thialves02/login
 
 #Starting the website
 Open the index.html archive with your browser
